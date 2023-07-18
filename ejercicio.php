@@ -1,8 +1,8 @@
 <?php
-$tejas de eternit = $_POST['tejas de eternit'];
+$tejas_de_eternit = $_POST['tejas_de_eternit'];
 $bloquelon = $_POST['bloquelon'];
 $pinturas= $_POST['pintura'];
-$60000 = $_POST['precio de tejas de eternit'];
+$precio60000 = $_POST['precio de tejas de eternit'];
 $5500= $_POST['precio bloquelon'];
 $500000= $_POST['precio de pinturas'];
 
