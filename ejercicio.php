@@ -1,22 +1,23 @@
 <?php
-$producto1 = $_POST['tejas_de_eternit'];
-$producto2 = $_POST['bloquelon'];
-$producto3 = $_POST['pintura'];
-$precio1 = $_POST['precio de tejas de eternit'];
-$precio2 = $_POST['precio bloquelon'];
-$precio3 = $_POST['precio de pinturas'];
+$producto1 = $_POST['producto1'];
+$producto2 = $_POST['producto2'];
+$producto3 = $_POST['producto3'];
+$precio1 = $_POST['precio1'];
+$precio2 = $_POST['precio2'];
+$precio3 = $_POST['precio3'];
+ $suma=$precio1+$precio2+$precio3
 
+echo "LA SUMA DE LOS TRES PRODUCTOS EQUIVALE A: ".$suma;
+echo "<br>";
 
-echo "LAS TEJAS DE ETERNIT DEL EMPLEADO SON: ".$tejas de eternit;
+$descuento=$suma*0.16
+  
+echo "EL DESCUENTO CORREESPONDE A: ".$descuento;
 echo "<br>";
-echo "LOS BLOQUELONES DEL EMPLEADO SON: ".$bloquelon;
+
+$totalpago=$suma-$descuento
+  
+echo "EL TOTAL A PAGAR ES: ".$totalpago;
 echo "<br>";
-echo "LAS PINTURAS DEL EMPLEADO SON: ".$pintura;
-echo "<br>";
-echo "EL PRECIO : ".$precio de tejas de eternit;
-echo "<br>";
-echo "EL PRECIO : ".$ precio bloquelon;
-echo "<br>";
-echo "EL PRECIO : ".$precio de pinturas;
-echo "<br>";
+
 ?>
