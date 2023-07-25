@@ -6,6 +6,14 @@ $precio1 = $_POST['precio1'];
 $precio2 = $_POST['precio2'];
 $precio3 = $_POST['precio3'];
 
+echo "EL PRIMER RODUCTO INGRESADO ES: ".$producto1;
+echo "<br>";
+echo "EL SEGUNDO PRODUCTO INGRESADO ES: ".$producto2;
+echo "<br>";
+echo "EL TERCER PRODUCTO INGRESADO ES: ".$producto3;
+echo "<br>";
+
+
  $suma=$precio1+$precio2+$precio3;
 
 echo "LA SUMA DE LOS TRES PRODUCTOS EQUIVALE A: ".$suma;
