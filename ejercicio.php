@@ -1,10 +1,10 @@
 <?php
-$tejas_de_eternit = $_POST['tejas_de_eternit'];
-$bloquelon = $_POST['bloquelon'];
-$pinturas= $_POST['pintura'];
-$precio60000 = $_POST['precio de tejas de eternit'];
-$5500= $_POST['precio bloquelon'];
-$500000= $_POST['precio de pinturas'];
+$producto1 = $_POST['tejas_de_eternit'];
+$producto2 = $_POST['bloquelon'];
+$producto3 = $_POST['pintura'];
+$precio1 = $_POST['precio de tejas de eternit'];
+$precio2 = $_POST['precio bloquelon'];
+$precio3 = $_POST['precio de pinturas'];
 
 
 echo "LAS TEJAS DE ETERNIT DEL EMPLEADO SON: ".$tejas de eternit;
